@@ -1,1 +1,14 @@
+.navbar-toggler{
+  transition: 0.4s ease;
+}
+.navbar-toggler:active{
+  transform: scale(0.6);
+}
 
+.navbar-toggler:hover {
+text-shadow: 0px 0px 1px darkgray;}
+
+.navbar-toggler:focus
+{
+  box-shadow: none;
+}
