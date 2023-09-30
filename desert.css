@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+/* Styling for the hero heading */
 .hero-container {
   font-family: "Spline Sans", sans-serif;
   font-size: 1.125rem; /* Adjusted font size for the hero heading */
@@ -25,4 +26,39 @@
   color: rgb(113, 109, 109); /* Setting the text color for hero content */
   font-size: 1.125rem;
   font-weight: 300;
+}
+
+/* Styling for the carousel */
+
+.bg-img-1 {
+  background-image: url("resources/Cake_main.jpg");
+}
+
+.bg-img-2 {
+  background-image: url("resources/desert1.jpg");
+}
+.bg-img-3 {
+  background-image: url("resources/cake1.jpg");
+}
+.bg-img-4 {
+  background-image: url("resources/desert2.jpg");
+}
+.bg-img-5 {
+  background-image: url("resources/desert3.jpg");
+}
+
+.carousel-image {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.carousel-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
