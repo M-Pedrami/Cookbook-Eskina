@@ -24,9 +24,12 @@ text-shadow: 0px 0px 1px darkgray;}
   transform: scale(0.9);
 }
 
+
+
 /*Hero*/
 
-/*Carousel*/
+/*Carousel*/ /*Subscription*/
+
 @media  (min-width:900px){
 .carousel-item img{
   object-fit: fill;
@@ -36,6 +39,13 @@ text-shadow: 0px 0px 1px darkgray;}
 #subEmail{
   width: 40%;
 }
+
+hr{
+  width: 80%;
+  border-width: 5px;
+  border-radius: 5px;
+  margin: 0;
+}
 }
 
 .form-control:focus{
@@ -43,4 +53,9 @@ text-shadow: 0px 0px 1px darkgray;}
   border-color: gray;
 }
 
-/*Subscription*/
+/* .card img{
+  height: auto;
+  display: block;
+  max-width: 100%;
+
+} */
