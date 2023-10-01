@@ -14,7 +14,7 @@
 
   <nav class="navbar navbar-expand-lg border-bottom border-1 border-dark-subtle shadow-sm" style="background-color: rgb(236, 236, 236);" >
     <div class="container">
-      <a href="#" class="navbar-brand w-25"><img src="./resources/Eskina-logos_black.png" class="w-100 img-fluid d-inline-block"></a>
+      <a href="#" class="navbar-brand w-25"><img src="./resources/Eskina-logos_black.png" class="w-75 img-fluid d-inline-block"></a>
       <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#navbarLinks" ><i class="bi bi-menu-button-wide"></i></button>
       <div class="collapse navbar-collapse " id="navbarLinks">
         <ul class="navbar-nav ms-auto">
@@ -33,10 +33,56 @@
         </ul>
       </div>
     </div>
-
   </nav>
+  <!--Hero-->
+  <section class="p-5 bg-light-subtle">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+      <div class="col-lg-6 text-lg-start text-center">
+        <h1>Be Your Own Chef</h1>
+        <p class="lead">Welcome to our delectable world of culinary delights! At our recipe website, we're on a mission to inspire your inner chef and elevate your home cooking to new heights. Whether you're a seasoned pro or a novice in the kitchen, our vast collection of recipes is designed to cater to all tastes and skill levels</p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img src="./resources/Hero-Collage.png" alt="" class=" img-fluid shadow-sm w-75 ">
+      </div>
+    </div>
+  </section>
 
-
+  <!--Carousel-->
+  <section class="bg-body-tertiary p-2  align-content-between">
+    
+      
+    <div class="container d-lg-flex justify-content-lg-between align-items-center">
+      <h4 class="text-center">Subscribe To Our Newsletter</h4>
+      <div class="input-group mb-3 me-3" id="subEmail" >
+        <input type="text" class="form-control" placeholder="Your Email" >
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button">Subscribe</button>
+        </div>
+      </div>
+      <div id="highlights" class="carousel slide col-lg-3 d-none d-lg-block " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item  active">
+            <img src="./resources/1.jpg" class="img-fluid w-100" alt="slide1">
+          </div>
+          <div class="carousel-item ">
+            <img src="./resources/2.jpg" class="img-fluid w-100" alt="slide2">
+          </div>
+          <div class="carousel-item">
+            <img src="./resources/3.jpg" class="img-fluid w-100" alt="slide3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#highlights" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#highlights" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 

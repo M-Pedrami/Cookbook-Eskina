@@ -1,3 +1,4 @@
+/*Navbar*/
 .navbar-toggler{
   transition: 0.4s ease;
 }
@@ -12,3 +13,34 @@ text-shadow: 0px 0px 1px darkgray;}
 {
   box-shadow: none;
 }
+
+.nav-item a{
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.nav-item a:hover{
+  color: darkgray;
+  transform: scale(0.9);
+}
+
+/*Hero*/
+
+/*Carousel*/
+@media  (min-width:900px){
+.carousel-item img{
+  object-fit: fill;
+  object-position: center;
+  height: 200px;
+}
+#subEmail{
+  width: 40%;
+}
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border-color: gray;
+}
+
+/*Subscription*/
