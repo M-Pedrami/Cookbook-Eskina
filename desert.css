@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&family=Spline+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the hero heading */
+.hero-container {
+  font-family: "Spline Sans", sans-serif;
+  font-size: 1.125rem; /* Adjusted font size for the hero heading */
+  font-weight: 300;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 5rem;
+  margin-bottom: 0.5rem;
+}
+.underline {
+  width: 9.37rem;
+  height: 0.06rem;
+  background-color: gray;
+  margin: auto;
+  margin-top: -1.87rem;
+}
+.hero-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+
+.hero-container p {
+  margin-top: 10rem;
+  color: gray;
+}
+
+.hero-container p {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: rgb(113, 109, 109); /* Setting the text color for hero content */
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+/* Styling for the carousel section */
+
+.bg-img-1 {
+  background-image: url("resources/Cake_main.jpg");
+}
+
+.bg-img-2 {
+  background-image: url("resources/desert1.jpg");
+}
+.bg-img-3 {
+  background-image: url("resources/cake1.jpg");
+}
+.bg-img-4 {
+  background-image: url("resources/desert2.jpg");
+}
+.bg-img-5 {
+  background-image: url("resources/desert3.jpg");
+}
+
+.carousel-image {
+  display: flex;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100vw;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.carousel-image {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* Styling for the button on the carousel */
+.btn:hover span {
+  cursor: pointer;
+  border-radius: 2rem;
+  transition: 0.5s;
+  opacity: 1;
+  right: 0;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.1s;
+}
+
+.btn:active {
+  background-color: #2bb430;
+  box-shadow: 0 0.3125rem #54b05d;
+  transform: translateY(0.25rem);
+}
+
+/* Styling for the recipe-card on the carousel */
+.recipe-card .recipe {
+  position: relative;
+  padding: 1.87rem;
+  box-shadow: 0px 2px 15px rgba(48, 46, 46, 0.7);
+  border-radius: 1%;
+  background: #fff;
+}
+
+.recipe-card .recipe .recipe-pic {
+  overflow: hidden;
+  max-width: 6rem;
+  border-radius: 5%;
+}
+
+.recipe-card .recipe .recipe-info {
+  padding-left: 1.87rem;
+}
+
+.recipe-card .recipe h4 {
+  font-weight: 700;
+  margin-bottom: 0.31rem;
+  font-size: 1.25rem;
+}
+
+.recipe-card .recipe span {
+  display: block;
+  font-size: 0.93rem;
+  padding-bottom: 0.62rem;
+  position: relative;
+  font-weight: 500;
+  color: gray;
+}
+
+.recipe-card .recipe span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 3.12rem;
+  height: 0.125rem;
+  background: gray;
+  bottom: 0;
+  left: 0;
+}
+
+.recipe-card .recipe p {
+  margin: 0.62rem 0 0 0;
+  font-size: 0.87rem;
+}
+
+.recipe-card .recipe .home {
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.recipe-card .recipe .home a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200%;
+  height: 200%;
+  background: #eff2f8;
+}
+
+.recipe-card .recipe .home a i {
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  margin: 0 0.125rem;
+}
+
+.recipe-card .recipe .home a:hover {
+  background: black;
+}
+
+.recipe-card .recipe .home a:hover i {
+  background: white;
+}
+
+section-title {
+  padding: 3.75rem 0;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 1.87rem;
+  padding-top: 5.31rem;
+}
+
+.underline {
+  width: 9.375rem;
+  height: 0.06rem;
+  background-color: gray;
+  margin: auto;
+  margin-top: -1.87rem;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.56rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+
+.section-title p {
+  margin-top: 1.125rem;
+  color: gray;
+}
