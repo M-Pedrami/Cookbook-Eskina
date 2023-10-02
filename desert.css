@@ -278,6 +278,8 @@
   padding-right: 0.5rem;
 }
 
+/* Styling for the lower feedback section */
+
 @media only screen and (min-width: 900px) {
   .carousel-image {
     object-fit: contain;
