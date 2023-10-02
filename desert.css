@@ -74,7 +74,7 @@
   background-position: center;
   max-width: 100vw;
   padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .carousel-image {
@@ -216,4 +216,13 @@ section-title {
 .section-title p {
   margin-top: 1.125rem;
   color: gray;
+}
+
+@media only screen and (min-width: 900px) {
+  .carousel-image {
+    object-fit: contain;
+    object-position: center;
+    background-repeat: no-repeat;
+    overflow-x: 0;
+  }
 }
