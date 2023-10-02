@@ -19,7 +19,7 @@
 .underline {
   width: 9.37rem;
   height: 0.06rem;
-  background-color: gray;
+  background-color: black;
   margin: auto;
   margin-top: -1.87rem;
 }
@@ -186,7 +186,9 @@
   background: white;
 }
 
-section-title {
+/* Styling for the recipe-cards */
+
+.section-title {
   padding: 3.75rem 0;
   overflow: hidden;
 }
@@ -200,7 +202,7 @@ section-title {
 .underline {
   width: 9.375rem;
   height: 0.06rem;
-  background-color: gray;
+  background-color: rgb(0, 0, 0);
   margin: auto;
   margin-top: -1.87rem;
 }
@@ -216,6 +218,60 @@ section-title {
 .section-title p {
   margin-top: 1.125rem;
   color: gray;
+  font-weight: 500;
+}
+
+/* Styling for the customer feedback section */
+
+.section-title-2 {
+  padding: 3.75rem 0;
+  overflow: hidden;
+}
+
+.section-title-2 {
+  text-align: center;
+  padding-bottom: 1.87rem;
+  padding-top: 5.31rem;
+}
+
+.underline {
+  width: 9.375rem;
+  height: 0.06rem;
+  background-color: gray;
+  margin: auto;
+  margin-top: -1.87rem;
+}
+
+.section-title-2 h2 {
+  font-size: 2rem;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 1.56rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+
+.section-title-2 p {
+  margin-top: 1.125rem;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.section-title-2 img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title-2 img {
+  width: 25%;
+  margin-left: 38%;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  box-shadow: 0px 2px 15px rgba(62, 61, 61, 0.7);
+  border-radius: 0.6rem;
+  padding-right: 0.5rem;
 }
 
 @media only screen and (min-width: 900px) {
