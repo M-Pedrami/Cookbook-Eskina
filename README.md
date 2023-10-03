@@ -1,5 +1,5 @@
 # Cookbook-Eskina
-Members: Maziar, Junior and Naemeka
+Members: Maziar, Junior and Nnaemeka
 
 
 General:
