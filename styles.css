@@ -30,6 +30,12 @@ text-shadow: 0px 0px 1px darkgray;}
 
 /*Carousel*/ /*Subscription*/
 
+/* Footer */
+
+.social i{
+  font-size: 1.25rem;
+}
+
 @media  (min-width:900px){
 .carousel-item img{
   object-fit: fill;
@@ -37,7 +43,7 @@ text-shadow: 0px 0px 1px darkgray;}
   height: 200px;
 }
 #subEmail{
-  width: 40%;
+  width: 32%;
 }
 
 hr{
@@ -46,6 +52,10 @@ hr{
   border-radius: 5px;
   margin: 0;
 }
+.newest-recipes hr{
+  width: 30%;
+  margin: 10px;
+}
 }
 
 .form-control:focus{
@@ -53,9 +63,11 @@ hr{
   border-color: gray;
 }
 
-/* .card img{
-  height: auto;
-  display: block;
-  max-width: 100%;
+@media  (max-width:900px) {
+  .newest-recipes hr{
+    width: 30%;
+    margin: 10px;
+    display: none;
+  }
 
-} */
+}
