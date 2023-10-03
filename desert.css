@@ -54,19 +54,28 @@
 
 .bg-img-1 {
   background-image: url("resources/Cake_main.jpg");
+  object-fit: contain;
 }
 
 .bg-img-2 {
   background-image: url("resources/desert1.jpg");
+  object-fit: contain;
 }
 .bg-img-3 {
-  background-image: url("resources/cake1.jpg");
+  background-image: url("resources/desert6.jpg");
+  object-fit: contain;
 }
 .bg-img-4 {
   background-image: url("resources/desert2.jpg");
+  object-fit: contain;
 }
 .bg-img-5 {
   background-image: url("resources/desert3.jpg");
+  object-fit: contain;
+}
+.bg-img-6 {
+  background-image: url("resources/cake1.jpg");
+  object-fit: contain;
 }
 
 .carousel-image {
@@ -75,9 +84,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 100vw;
+  min-width: 10vw;
   padding-top: 0.25rem;
   padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
   margin-right: 1rem;
 }
 
@@ -87,6 +98,10 @@
   align-items: center;
   overflow: hidden;
   object-fit: contain;
+}
+
+.carousel-item {
+  margin-right: 30px;
 }
 
 /* Styling for the button on the carousel */
