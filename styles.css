@@ -23,18 +23,36 @@ text-shadow: 0px 0px 1px darkgray;}
   color: darkgray;
   transform: scale(0.9);
 }
+/*Navbar*/
 
 
 
-/*Hero*/
+/* Newest Recipies */
+.newest-recipes img{
+  transition: 0.4s ease;
+}
 
-/*Carousel*/ /*Subscription*/
+.newest-recipes img:hover{
+  transform: scale(1.1);
+}
+.cardbox{
+  transition: 0.4s ease;
+}
+.cardbox:hover{ 
+  box-shadow: 1px 1px 10px gray;
+}
+
+
+/* Newest Recipies */
+
 
 /* Footer */
 
 .social i{
   font-size: 1.25rem;
 }
+/* Footer */
+
 
 @media  (min-width:900px){
 .carousel-item img{
@@ -47,7 +65,7 @@ text-shadow: 0px 0px 1px darkgray;}
 }
 
 hr{
-  width: 80%;
+  width: 75%;
   border-width: 5px;
   border-radius: 5px;
   margin: 0;
