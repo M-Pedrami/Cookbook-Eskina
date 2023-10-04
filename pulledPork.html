@@ -21,13 +21,19 @@
             <a href="#" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Desserts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              International
+            </a>
+            <ul class="dropdown-menu bg-transparent border-0" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Brazilian</a></li>
+              <li><a class="dropdown-item" href="./pulledPork.html">Persian</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Our Story</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">What Others Say</a>
+            <a href="#" class="nav-link">Recently Added</a>
           </li>
         </ul>
       </div>
@@ -61,8 +67,13 @@
         </div>
           <hr class="m-lg-auto w-100">
           <!--Nutrition Facts-->
-          <div class=" mt-lg-3">
-            <h5 cla>Nutrition Per Serving</h5>
+          <button class="btn d-lg-none border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#facts" aria-expanded="false" aria-controls="facts">
+            <span><i class="bi bi-plus-square"></i>
+            </span>
+          </button>
+          <h5 class="ms-lg-3 mt-lg-5">Nutrition Per Serving</h5>
+          <div class=" mt-lg-3 d-lg-block collapse" id="facts">
+            
             <div class="row m-3">
               <div class="col p-1 text-center nutrition-box m-1">
                 <span class="text-sm d-block">Calories</span>
