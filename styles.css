@@ -42,7 +42,10 @@ text-shadow: 0px 0px 1px darkgray;}
 }
 
 /* Ghormeh Sabzi */
-
+.carousel-caption{
+  position: sticky;
+  top: 0;
+}
 
 @media  (min-width:900px){
 .carousel-item img{
