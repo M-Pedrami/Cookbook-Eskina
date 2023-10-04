@@ -25,8 +25,6 @@ text-shadow: 0px 0px 1px darkgray;}
 }
 /*Navbar*/
 
-
-
 /* Newest Recipies */
 .newest-recipes img{
   transition: 0.4s ease;
@@ -41,10 +39,12 @@ text-shadow: 0px 0px 1px darkgray;}
 .cardbox:hover{ 
   box-shadow: 1px 1px 10px gray;
 }
-
-
 /* Newest Recipies */
 
+.popularRecipes {
+  width: 300px;
+  height: 300px;
+}
 
 /* Footer */
 
