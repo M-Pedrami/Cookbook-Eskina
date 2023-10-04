@@ -417,6 +417,17 @@ body {
   text-align: center;
 }
 
+.home-toggle a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 2.5rem;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  color: black;
+}
+
 /* Footer */
 
 .social i {
