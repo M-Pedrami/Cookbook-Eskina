@@ -115,7 +115,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-width: 10vw;
+  min-width: 100vw;
 }
 
 .carousel-image {
@@ -132,6 +132,10 @@ body {
   align-items: center;
   overflow: hidden;
   object-fit: contain;
+}
+.display-1 {
+  position: relative;
+  z-index: 5;
 }
 
 .carousel-item {
@@ -413,6 +417,17 @@ body {
   text-align: center;
 }
 
+.home-toggle a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 2.5rem;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  color: black;
+}
+
 /* Footer */
 
 .social i {
@@ -420,7 +435,7 @@ body {
 }
 /* Footer */
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 900px) {
   .carousel-image {
     object-fit: contain;
     object-position: center;
