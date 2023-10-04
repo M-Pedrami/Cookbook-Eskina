@@ -248,7 +248,7 @@ body {
   font-weight: 500;
 }
 
-/* Styling for the customer feedback section */
+/* Styling for the our chef section */
 
 .section-title-2 {
   padding: 3.75rem 0;
@@ -329,7 +329,7 @@ body {
   justify-content: space-around;
   padding: 20px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 30px;
   position: relative;
 }
 
@@ -369,7 +369,7 @@ body {
   overflow: hidden;
   object-fit: cover;
   object-position: center;
-  margin-bottom: 1.125rem;
+  margin-top: 6rem;
 }
 
 .details strong {
@@ -383,11 +383,14 @@ body {
   font-size: 1rem;
   color: whitesmoke;
   margin: 5px 0px;
-  padding-top: 0.01rem;
+  padding-top: 0.03rem;
   padding-bottom: 0.2rem;
   text-align: center;
 }
 
+.btn {
+  margin-bottom: 6rem;
+}
 @media only screen and (min-width: 900px) {
   .carousel-image {
     object-fit: contain;
