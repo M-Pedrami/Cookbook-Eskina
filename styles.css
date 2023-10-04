@@ -35,6 +35,14 @@ text-shadow: 0px 0px 1px darkgray;}
 .social i{
   font-size: 1.25rem;
 }
+/* Footer */
+/* Ghormeh Sabzi */
+.nutrition-box{
+  border: solid 1px gray;
+}
+
+/* Ghormeh Sabzi */
+
 
 @media  (min-width:900px){
 .carousel-item img{
