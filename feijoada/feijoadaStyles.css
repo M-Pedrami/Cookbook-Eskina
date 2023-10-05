@@ -1,2 +1,19 @@
-@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css');
+.container-fluid {
+    width: 90%;
+}
+
+#topBtn {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+#topBtn:hover {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+}
+
+#feijoadaImg img {
+    max-height: 400px;
+}
