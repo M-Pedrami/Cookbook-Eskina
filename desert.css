@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&family=Spline+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 0;
+  overflow-x: hidden;
+}
+
+/*Navbar*/
+.navbar-toggler {
+  transition: 0.4s ease;
+}
+.navbar-toggler:active {
+  transform: scale(0.6);
+}
+
+.navbar-toggler:hover {
+  text-shadow: 0px 0px 1px darkgray;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-item a {
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.nav-item a:hover {
+  color: darkgray;
+  transform: scale(0.9);
+}
+
+/* Styling for the hero heading */
+.hero-container {
+  font-family: "Spline Sans", sans-serif;
+  font-size: 1.125rem; /* Adjusted font size for the hero heading */
+  font-weight: 300;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 5rem;
+  margin-bottom: 0.5rem;
+}
+.underline {
+  width: 9.37rem;
+  height: 0.06rem;
+  background-color: black;
+  margin: auto;
+  margin-top: -1.87rem;
+}
+.hero-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+
+.hero-container p {
+  margin-top: 10rem;
+  color: gray;
+}
+
+.hero-container p {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: rgb(113, 109, 109); /* Setting the text color for hero content */
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+/* Styling for the carousel section */
+
+.bg-img-1 {
+  background-image: url("resources/Cake_main.jpg");
+  /* object-fit: contain; */
+}
+
+.bg-img-2 {
+  background-image: url("resources/desert1.jpg");
+  /* object-fit: contain; */
+}
+.bg-img-3 {
+  background-image: url("resources/desert6.jpg");
+  /* object-fit: contain; */
+}
+.bg-img-4 {
+  background-image: url("resources/desert2.jpg");
+  /* object-fit: contain; */
+}
+.bg-img-5 {
+  background-image: url("resources/desert3.jpg");
+  /* object-fit: contain; */
+}
+.bg-img-6 {
+  background-image: url("resources/cake1.jpg");
+  /* object-fit: contain; */
+}
+
+.carousel-image {
+  display: flex;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 100vw;
+}
+
+.carousel-image {
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  margin-right: 1rem;
+}
+
+.carousel-image {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  object-fit: contain;
+}
+.display-1 {
+  position: relative;
+  z-index: 5;
+}
+
+.carousel-item {
+  margin-right: 30px;
+}
+
+.btn:hover span {
+  cursor: pointer;
+  border-radius: 2rem;
+  transition: 0.5s;
+  opacity: 1;
+  right: 0;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.1s;
+}
+
+.btn:active {
+  background-color: #2bb430;
+  box-shadow: 0 0.3125rem #54b05d;
+  transform: translateY(0.25rem);
+}
+
+/* Styling for the recipe-cards on the our recipe section*/
+.recipe-card .recipe {
+  position: relative;
+  padding: 1.6rem;
+  box-shadow: 0px 2px 15px rgba(48, 46, 46, 0.7);
+  border-radius: 1%;
+  background: #fff;
+}
+
+.recipe-card .recipe .recipe-pic {
+  overflow: hidden;
+  max-width: 5rem;
+  border-radius: 5%;
+}
+
+.recipe-card .recipe .recipe-info {
+  padding-left: 1.8rem;
+}
+
+.recipe-card .recipe h4 {
+  font-weight: 700;
+  margin-bottom: 0.31rem;
+  font-size: 1.25rem;
+}
+
+.recipe-card .recipe span {
+  display: block;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  font-weight: 500;
+  color: gray;
+}
+
+.recipe-card .recipe span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 4rem;
+  height: 0.2rem;
+  background: gray;
+  bottom: 0;
+  left: 0;
+}
+
+.recipe-card .recipe p {
+  margin: 0.6rem 0 0 0;
+  font-size: 0.87rem;
+}
+
+.recipe-card .recipe .home {
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.recipe-card .recipe .home a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200%;
+  height: 200%;
+  background: #eff2f8;
+}
+
+.recipe-card .recipe .home a i {
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  margin: 0 0.125rem;
+}
+
+.recipe-card .recipe .home a:hover {
+  background: black;
+}
+
+.recipe-card .recipe .home a:hover i {
+  background: white;
+}
+
+/* Styling for the recipe-cards */
+
+.section-title {
+  padding: 3.7rem 0;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 1.87rem;
+  padding-top: 5.31rem;
+}
+
+.underline {
+  width: 9.375rem;
+  height: 0.06rem;
+  background-color: gray;
+  margin: auto;
+  margin-top: -1.87rem;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.56rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+
+.section-title p {
+  margin-top: 1.125rem;
+  color: gray;
+  font-weight: 500;
+}
+
+/* Styling for the our chef section */
+
+.section-title-2 {
+  padding: 3.75rem 0;
+  overflow: hidden;
+}
+
+.section-title-2 {
+  text-align: center;
+  padding-bottom: 1.87rem;
+  padding-top: 5rem;
+}
+
+.underline {
+  width: 9.375rem;
+  height: 0.06rem;
+  background-color: gray;
+  margin: auto;
+  margin-top: -1.87rem;
+}
+
+.section-title-2 h2 {
+  font-size: 2rem;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 1.56rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+
+.section-title-2 p {
+  margin-top: 1.125rem;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.section-title-2 img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title-2 img {
+  width: 25%;
+  margin-left: 38%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 0.125rem 0.94rem rgba(62, 61, 61, 0.7);
+  border-radius: 0.6rem;
+  padding-right: 0.5rem;
+}
+
+/* Styling for the OUR TEAM section */
+
+#team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin: 1.25rem;
+}
+
+.box {
+  width: 17rem;
+  height: 26.25rem;
+  background-color: rgb(47, 37, 37);
+  box-shadow: 0px 2px 15px rgba(31, 30, 30, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.25rem;
+  border-radius: 0.63rem;
+  margin: 1.88rem;
+  position: relative;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.top-bar {
+  width: 50%;
+  height: 0.25rem;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: rgb(57, 128, 57);
+  border-radius: 0 0 0.63rem 0.63rem;
+}
+
+.bi {
+  color: green;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.details img {
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 1rem;
+}
+
+.details strong {
+  font-weight: 500;
+  color: whitesmoke;
+  letter-spacing: 1;
+  margin-top: 0.94rem;
+}
+
+.details p {
+  font-size: 1rem;
+  color: whitesmoke;
+  margin: 0.32rem 0;
+  padding-top: 0.03rem;
+  padding-bottom: 0.2rem;
+  text-align: center;
+}
+
+.home-toggle a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 2.5rem;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+/* Footer */
+
+.social i {
+  font-size: 1.25rem;
+}
+/* Footer */
+
+@media only screen and (min-width: 900px) {
+  .carousel-image {
+    object-fit: contain;
+    object-position: center;
+    background-repeat: no-repeat;
+    overflow-x: 0;
+  }
+}
