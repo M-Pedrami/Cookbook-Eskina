@@ -1,0 +1,19 @@
+.container-fluid {
+    width: 90%;
+}
+
+#topBtn {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+#topBtn:hover {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+}
+
+#feijoadaImg img {
+    max-height: 400px;
+}
