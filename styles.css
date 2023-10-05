@@ -1,1 +1,111 @@
+/*Navbar*/
+.navbar-toggler{
+  transition: 0.4s ease;
+}
+.navbar-toggler:active{
+  transform: scale(0.6);
+}
 
+.navbar-toggler:hover {
+text-shadow: 0px 0px 1px darkgray;}
+
+.navbar-toggler:focus
+{
+  box-shadow: none;
+}
+
+.nav-item a{
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.nav-item a:hover{
+  color: darkgray;
+  transform: scale(0.9);
+}
+.dropdown-item:hover{
+  background: transparent;
+}
+/*Navbar*/
+
+/* Newest Recipies */
+.newest-recipes img{
+  transition: 0.4s ease;
+}
+
+.newest-recipes img:hover{
+  transform: scale(1.1);
+}
+.cardbox{
+  transition: 0.4s ease;
+}
+.cardbox:hover{ 
+  box-shadow: 1px 1px 10px gray;
+}
+/* Newest Recipies */
+
+.popularRecipes {
+  width: 300px;
+  height: 300px;
+}
+
+/* Footer */
+
+.social i{
+  font-size: 1.25rem;
+}
+/* Footer */
+/* Ghormeh Sabzi */
+.nutrition-box{
+  border: solid 1px gray;
+}
+
+.carousel-caption{
+  position: sticky;
+  top: 0;
+}
+/* Ghormeh Sabzi */
+/* comments */
+.userName{
+  color: gray;
+  font-size: 0.7rem;
+}
+.commentP{
+  font-size: 1.2rem;
+}
+
+@media  (min-width:900px){
+.carousel-item img{
+  object-fit: fill;
+  object-position: center;
+  height: 200px;
+}
+#subEmail{
+  width: 32%;
+}
+
+hr{
+  width: 75%;
+  border-width: 5px;
+  border-radius: 5px;
+  margin: 0;
+}
+.newest-recipes hr{
+  width: 30%;
+  margin: 10px;
+}
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border-color: gray;
+}
+
+@media  (max-width:900px) {
+  .newest-recipes hr{
+    width: 30%;
+    margin: 10px;
+    display: none;
+  }
+
+}
